@@ -1,0 +1,7 @@
+[package]
+name = "android-log-sys"
+version = "0.1.0"
+authors = ["roblabla"]
+description = "Bindings to the raw android log functions"
+
+[dependencies]
