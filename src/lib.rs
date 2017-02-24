@@ -12,6 +12,8 @@ pub enum android_LogPriority {
     ANDROID_LOG_SILENT = 8,
 }
 
+pub use android_LogPriority::*;
+
 extern "C" {
     pub fn __android_log_write(prio: ::std::os::raw::c_int,
                                tag: *const ::std::os::raw::c_char,
